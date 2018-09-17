@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+html, body {
+    font-family: Raleway;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: auto;
+    background: url(images/bg.jpg);
+    background-size: cover;
+}
+
+header {
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    color:white;
+    
+}
+
+.bar {
+    box-shadow: 0px 20px 50px grey;
+}
+
+header img {
+    height: 100px;
+    vertical-align: middle;
+    
+}
+
+header h3 {
+    display: inline;
+}
+
+nav {
+    display: inline-table;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:rgba(0,0,0,0.4);
+}
+
+.navbar li {
+    display: inline;
+    padding: 10px;
+}
+
+section {
+    margin: auto;
+    width: 60%;
+    padding-top: 20px;
+}
+
+.posts {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.8);   
+}
+
+#main-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    text-align: center;
+}
