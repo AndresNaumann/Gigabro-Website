@@ -136,6 +136,7 @@ section {
     width: 25%;
     height:400px;
     color: white;
+    background-image: url(images/bean.jpg);
     box-shadow: 0px 10px 50px rgba(0,0,0,0.8);
     transition: all 0.4s ease;
     -webkit-filter:blur(0px);
